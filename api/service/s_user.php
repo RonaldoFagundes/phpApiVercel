@@ -1,7 +1,7 @@
 <?php
-  
-   include '../../controller/c_user.php';
-   
+     
+
+   require_once ROOT_PATH . "/controller/c_user.php";
    
    class S_User {
 
@@ -22,6 +22,7 @@
 	 
 
    }
+
 
 
 
