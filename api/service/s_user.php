@@ -1,6 +1,6 @@
 <?php
   
-   include './controller/c_user.php';
+   include '../../controller/c_user.php';
    
    
    class S_User {
@@ -22,6 +22,7 @@
 	 
 
    }
+
 
 
 
