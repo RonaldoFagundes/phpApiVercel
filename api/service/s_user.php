@@ -1,6 +1,6 @@
 <?php
   
-   include 'api/controller/c_user.php';
+   include '/api/controller/c_user.php';
    
    
    class S_User {
@@ -20,4 +20,5 @@
 	 }
 	 
 	 
+
    }
