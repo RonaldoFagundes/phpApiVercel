@@ -17,10 +17,12 @@ class C_User
     }
 
 
-    public function getEmail()
+    public function getName()
     {
-        return $this->email;
+        return $this->name;
     }
+
+
 
 
 }
