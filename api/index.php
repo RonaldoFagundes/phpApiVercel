@@ -14,9 +14,15 @@
  $response_json = file_get_contents("php://input");
  $data = json_decode($response_json, true);
 
-if ($_GET['action'] === 'user') {
+if ($_GET['action'] === 'test') {
+ 
+   echo json_encode("test ok!!!!");
+   
+
+}else if ($_GET['action'] === 'user') {
  
    echo json_encode($s_user->listUser());
    
 
 }
+
